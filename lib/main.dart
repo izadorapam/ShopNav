@@ -15,6 +15,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 void main() async {
+
   WidgetsFlutterBinding.ensureInitialized();
   
   try {
@@ -26,6 +27,7 @@ void main() async {
   }
   
   runApp(const ShopNavApp());
+
 }
 
 class ShopNavApp extends StatelessWidget {
@@ -59,6 +61,7 @@ class AppWrapper extends StatefulWidget {
 
   @override
   State<AppWrapper> createState() => _AppWrapperState();
+
 }
 
 class _AppWrapperState extends State<AppWrapper> {
@@ -92,6 +95,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Alimentação',
       floor: 'Piso 1',
     ),
+
     Contact(
       id: 'sc_1_2',
       name: 'Subway',
@@ -103,6 +107,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Alimentação',
       floor: 'Piso 1',
     ),
+
     Contact(
       id: 'sc_1_3',
       name: 'Americanas',
@@ -114,6 +119,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Serviços',
       floor: 'Piso 1',
     ),
+
     Contact(
       id: 'sc_1_4',
       name: 'Óticas Carol',
@@ -138,6 +144,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Moda',
       floor: 'Piso 2',
     ),
+
     Contact(
       id: 'sc_2_2',
       name: 'C&A',
@@ -149,6 +156,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Moda',
       floor: 'Piso 2',
     ),
+
     Contact(
       id: 'sc_2_3',
       name: 'Renner',
@@ -160,6 +168,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Moda',
       floor: 'Piso 2',
     ),
+
     
     // Piso 3 - Shopping da Cidade
     Contact(
@@ -173,6 +182,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Entretenimento',
       floor: 'Piso 3',
     ),
+
     Contact(
       id: 'sc_3_2',
       name: 'Playland',
@@ -184,6 +194,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Entretenimento',
       floor: 'Piso 3',
     ),
+
     Contact(
       id: 'sc_3_3',
       name: 'Centauro',
@@ -410,6 +421,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Serviços',
       floor: 'Piso 1',
     ),
+
     Contact(
       id: 'sp_1_2',
       name: 'Casa & Vídeo',
@@ -421,6 +433,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Eletrônicos',
       floor: 'Piso 1',
     ),
+
     Contact(
       id: 'sp_1_3',
       name: 'Moda Popular',
@@ -432,6 +445,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Moda',
       floor: 'Piso 1',
     ),
+
     Contact(
       id: 'sp_1_4',
       name: 'Lanchonete do Seu Zé',
@@ -443,6 +457,7 @@ class _AppWrapperState extends State<AppWrapper> {
       category: 'Alimentação',
       floor: 'Piso 1',
     ),
+
     Contact(
       id: 'sp_1_5',
       name: 'Cabeleireiro Popular',
@@ -458,8 +473,10 @@ class _AppWrapperState extends State<AppWrapper> {
 
   @override
   void initState() {
+    
     super.initState();
     _initializeApp();
+
   }
 
   Future<void> _initializeApp() async {
