@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "908723429144",
+    "project_id": "shopnav-8dd72",
+    "storage_bucket": "shopnav-8dd72.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908723429144:android:5435de68d4b7f0d340486d",
+        "android_client_info": {
+          "package_name": "com.example.shopnav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBStDZdz2-Qaf_eWw95hnLfHf1y4IdnhMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
